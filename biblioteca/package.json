@@ -1,0 +1,20 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Este proyecto es una API REST para un sistema de biblioteca desarrollada con Node.js, Express, Sequelize y MySQL. Se desarrollará siguiendo un orden específico para facilitar el aprendizaje.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
